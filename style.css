@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: flex;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 76px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700px;
+    line-height: 38.73px;
+    text-align: left;
+    color: black;
+}
+
+.title {
+    text-align: flex;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    color: black;
+
+}
+
+.dadasi{
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 558px;
+    height: 452px;
+    background-color: red;
+}
+
+.right{
+    width: 558px;
+    height: 452px;
+    background-color: red;
+}
